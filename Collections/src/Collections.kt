@@ -13,7 +13,7 @@ fun main(args: Array<String>) {
     }
 
     mShoppingList.sort()
-    println("mSghoppingList sorted: $mShoppingList")
+    println("mS hoppingList sorted: $mShoppingList")
     mShoppingList.reverse()
     println("mShoppingList reversed: $mShoppingList")
 
