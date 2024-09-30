@@ -4,6 +4,10 @@ fun main(args: Array<String>){
     val userChoice = getUserChoice(options)
 
     printResult(userChoice, gameChoice)
+
+    val name: String? = null
+    val displayName = name ?: "Unknown"
+    println(displayName)
 }
 
 fun getGameChoice(optionParam: Array<String>) =
